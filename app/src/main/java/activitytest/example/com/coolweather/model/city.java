@@ -3,7 +3,7 @@ package activitytest.example.com.coolweather.model;
 /**
  * Created by myb19930730 on 2016/3/24.
  */
-public class city {
+public class City {
     private int id;
     private String cityName;
     private String cityCode;
@@ -17,19 +17,19 @@ public class city {
         this.id =id;
     }
 
-    public String getcityName(){
+    public String getCityName(){
 
         return cityName;
     }
 
-    public void setcityName(String cityName){
+    public void setCityName(String cityName){
         this.cityName = cityName;}
 
-    public  String getcityCode(){
+    public  String getCityCode(){
         return cityCode;
     }
 
-    public void setcityCode(String cityCode){
+    public void setCityCode(String cityCode){
         this.cityCode = cityCode;
     }
 
